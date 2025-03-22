@@ -31,3 +31,28 @@ st2 {
         opacity:1;
     }
 }
+st3 {
+    animation-duration:3s;
+    animation-name:app-start3;
+}
+
+@keyframes app-start3 {
+    from {
+        translate:0 5vh;
+        opacity: 0;
+    }
+
+    to {
+        translate:0 0;
+        opacity:1;
+    }
+}
+
+.card {
+    translate:0 0;
+    transition: translate 0.3s;
+}
+
+.card:hover {
+    translate:0 -1.5vh;
+}
