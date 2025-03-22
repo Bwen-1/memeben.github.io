@@ -1,0 +1,33 @@
+st {
+    animation-duration:1s;
+    animation-name:app-start;
+}
+
+@keyframes app-start {
+    from {
+        translate:0 5vh;
+        opacity: 0;
+    }
+
+    to {
+        translate:0 0;
+        opacity:1;
+    }
+}
+
+st2 {
+    animation-duration:2s;
+    animation-name:app-start2;
+}
+
+@keyframes app-start2 {
+    from {
+        translate:0 5vh;
+        opacity: 0;
+    }
+
+    to {
+        translate:0 0;
+        opacity:1;
+    }
+}
