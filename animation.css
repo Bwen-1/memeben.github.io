@@ -43,15 +43,25 @@ st6 {
     animation-name:app-start;
 }
 
+st7 {
+    animation-duration:7s;
+    animation-name:app-start;
+}
+
+st8 {
+    animation-duration:8s;
+    animation-name:app-start;
+}
+
 
 @keyframes app-start {
     from {
-        transform:translateY(5vh);
+        translate:0 5vh;
         opacity: 0;
     }
 
     to {
-        transform:translateY(0);
+        translate:0;
         opacity:1;
     }
 }
@@ -82,4 +92,13 @@ new-box:hover {
 
 .card:hover {
     translate:0 -1.5vh;
+}
+
+tourbox {
+    translate:0 0;
+    transition: translate 0.3s;
+}
+
+tourbox:hover {
+    translate:0 -0.5vh;
 }
