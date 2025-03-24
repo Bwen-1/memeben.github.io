@@ -18,50 +18,62 @@ st {
     animation-name:app-start;
 }
 
-@keyframes app-start {
-    from {
-        translate:0 5vh;
-        opacity: 0;
-    }
-
-    to {
-        translate:0 0;
-        opacity:1;
-    }
-}
-
 st2 {
     animation-duration:2s;
-    animation-name:app-start2;
+    animation-name:app-start;
 }
 
-@keyframes app-start2 {
-    from {
-        translate:0 5vh;
-        opacity: 0;
-    }
-
-    to {
-        translate:0 0;
-        opacity:1;
-    }
-}
 st3 {
     animation-duration:3s;
-    animation-name:app-start3;
+    animation-name:app-start;
 }
 
-@keyframes app-start3 {
+st4 {
+    animation-duration:4s;
+    animation-name:app-start;
+}
+
+st5 {
+    animation-duration:5s;
+    animation-name:app-start;
+}
+
+st6 {
+    animation-duration:6s;
+    animation-name:app-start;
+}
+
+
+@keyframes app-start {
     from {
-        translate:0 5vh;
+        transform:translateY(5vh);
         opacity: 0;
     }
 
     to {
-        translate:0 0;
+        transform:translateY(0);
         opacity:1;
     }
 }
+
+danbox {
+    translate:0 0;
+    transition: translate 0.3s;
+}
+
+danbox:hover {
+    translate:0.3vw 0;
+}
+
+new-box {
+    translate:0 0;
+    transition: translate 0.3s;
+}
+
+new-box:hover {
+    translate:0 -0.5vh;
+}
+
 
 .card {
     translate:0 0;

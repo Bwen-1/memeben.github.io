@@ -145,7 +145,7 @@ tag {
 }
 
 footer {
-    display:fixed;
+    display:flex;
     align-items:center;
     justify-content:space-between;
     margin-top:20px;
@@ -176,6 +176,10 @@ nn:hover {
     cursor:default;
 }
 
+dantitle:hover {
+    cursor:default;
+}
+
 new-box {
     margin:5px;
     display:flex;
@@ -195,7 +199,9 @@ new-box {
 ttt {
     display:flex;
     align-items:center;
-    height:160px;
+    flex-wrap:wrap;
+    height:150px;
+    margin-left:-2px;
 }
 
 main-txt {
@@ -218,55 +224,92 @@ time {
     border-radius:10px;
 }
 
-tournaments {
+osu {
     display:flex;
-    flex-wrap:wrap;
     justify-content:center;
-    margin:20px 0;
+    align-items:center;
+    flex-wrap:wrap;
 }
 
-tourbox {
+profile {
     display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    padding:20px;
-    border:5px solid #f36983;
-    border-radius:20px;
-    background:white;
-    width:200px;
-    margin:5px;
+    align-items:center;
+    margin-bottom:10px;
 }
 
-tourabbr {
+.avatar {
+    clip-path: xywh(0 0 100% 100% round 18px);
+}
+
+info { 
+    margin:10px 15px;
+    display:flex;
+    padding:0 20px;
+    border:3px solid #f36983;
+    border-radius:50px;
+    max-width:min-content;
+    background: white;
+}
+
+inftxt {
     font-family:Casagrande-Bold;
     font-size:40px;
-    text-align:center;
-    line-height: 30px;    
+    color:#f36983;
 }
 
-los {
-    font-family:Arista-Bold;
-    font-size:30px;
-    color:red;
-    line-height:30px;
-}
-
-resbl {
+stats {
+    margin:0 20px;
     display:flex;
+    align-items:center;
+}
+
+statstxt {
+    font-family:Arista-Bold;
+    font-size:25px;
+    color:#f36983;
+}
+
+.icon {
+    margin:0 5px;
+}
+
+dans {
+    margin:0 15px;
+}
+
+dantitle {
+    font-family:Casagrande-Bold;
+    font-size:40px;
+    color:#f36983;
+}
+
+danbox {
+    display:flex;
+    align-items:center;
     flex-wrap:wrap;
-    justify-content:center;
-    align-items:center;    
-    padding:10px 5px;
-    border:2px solid #f36983;
-    border-radius:12px;
+    padding:20px;
+    border-radius:20px;
+    background-image:var(--bg-image);
+    background-size:cover;
+    background-position: 50%;
+    width:500px;
+    height:50px;
+    margin:10px;
+    box-shadow: 1px 1px 10px black;
 }
 
-vs {
+tit {
     font-family:Arista-Bold;
-    font-size:20px;
+    font-size:25px;
+    color:white;
+    text-shadow: 1px 1px 7px black;
 }
 
-res {
+com {
+    display:flex;
+    margin-top:5px;
     font-family:Arista-Bold;
     font-size:20px;
+    color:white;
+    text-shadow: 1px 1px 5px black;
 }
