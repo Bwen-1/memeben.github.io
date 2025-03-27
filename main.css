@@ -15,7 +15,7 @@ h1::after {
     display: inline-block;
     content: "";
     border-top: 3px solid #f36983;
-    width:300px;
+    width:10vw;
     margin: 0 1rem;
     transform: translateY(-1rem);
     border-radius:2px;
@@ -39,7 +39,7 @@ header {
     border:8px solid #f36983;
     background-color:#ffdabd;
     background-image:url(bg.png);
-    background-position:0 -90px;
+    background-position:0 70%;
     background-size:cover;
     border-top:#ffa39900;
     border-radius:0 0 60px 60px;
@@ -60,6 +60,8 @@ banner {
 }
 
 .koron_ban {
+    display:flex;
+    width:100%;
     clip-path: xywh(0 0 100% 100% round 50px 50px);
 }
 
@@ -186,9 +188,8 @@ ttt {
 
 main-txt {
     font-family:Arista-Bold;
-    font-size:50px;
+    font-size:47px;
     color:#262626;
-    margin-left:-5%;
     line-height:45px;
     text-size-adjust:80%;
 }
