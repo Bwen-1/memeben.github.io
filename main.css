@@ -190,7 +190,7 @@ main-txt {
     font-family:Arista-Bold;
     font-size:47px;
     color:#262626;
-    line-height:45px;
+    line-height:39px;
     text-size-adjust:80%;
 }
 
@@ -358,4 +358,10 @@ vs {
     font-size:19px;
     color:black;
     line-height:17px;
+}
+
+vid {
+    width:max-content;
+    clip-path: xywh(0 0 100% 100% round 30px);
+    height:max-content;
 }

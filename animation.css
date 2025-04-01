@@ -53,6 +53,16 @@ st8 {
     animation-name:app-start;
 }
 
+st9 {
+    animation-duration:9s;
+    animation-name:app-start;
+}
+
+st10 {
+    animation-duration:10s;
+    animation-name:app-start;
+}
+
 
 @keyframes app-start {
     from {
