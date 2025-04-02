@@ -68,6 +68,7 @@ banner {
 favorites {
     display:flex;
     justify-content:center;
+    flex-wrap:wrap;
 }
 
 headers {
@@ -87,6 +88,10 @@ txt:hover {
 
 .card {
     margin:5px;
+}
+
+st10 {
+    margin-bottom:15px;
 }
 
 a:hover, a:visited, a:link, a:active
@@ -361,7 +366,12 @@ vs {
 }
 
 vid {
+    display:flex;
+    height:30vh;
+    justify-content:space-around;
+    text-align:center;
+    flex-wrap:wrap;
     width:max-content;
-    clip-path: xywh(0 0 100% 100% round 30px);
     height:max-content;
+    clip-path:xywh(0 0 100% 100% round 20px)
 }
