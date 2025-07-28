@@ -59,6 +59,21 @@ tour-box {
     margin:1vw 0;
 }
 
+tour {
+    display:flex;
+    align-items:center;
+}
+
+time {
+    margin-left:0.3em;
+    padding:5px 12px;
+    font-family:Arista-Bold;
+    color:#f36983;
+    font-size:1.7em;
+    background:white;
+    border-radius:20px;
+}
+
 info-m {
     display:flex;
 }
@@ -84,7 +99,7 @@ tags {
 role {
     font-family:Arista;
     color:#f36983;
-    font-size:1.7em;
+    font-size:1.4em;
     border-radius:20px;
     background:white;
     padding:5px 10px;
@@ -93,7 +108,7 @@ role {
 tag {
     font-family:Arista;
     color:#f36983;
-    font-size:1.7em;
+    font-size:1.4em;
     border-radius:20px;
     background:white;
     padding:5px 10px;
