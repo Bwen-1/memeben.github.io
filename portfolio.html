@@ -13,6 +13,24 @@
                 <img class="korone" src="news/korone.png" height="150px"></img>
             </korone>
         </header>
+        <player>
+            <insidePlayer>
+                <img class="ic" src="https://a.ppy.sh/18171966?1749577875.jpeg" width="150px"></img>
+                <info-p>
+                    <zones>
+                        <nick>MemeBen</nick>
+                        <zone>Time Zone: UTC+5</zone>
+                    </zones>
+                    <infoL>Main role: GFX/Designer</infoL>
+                    <infoL>Total Tournament Participations: 5</infoL>
+                </info-p>
+                <last>
+                    <lst-t>Last Tornament</lst-t>
+                    <a href="https://osu.ppy.sh/community/forums/topics/2067944"><img class="ic" src="portfolio/sound.png" height="75px"></img></a>
+                </last>
+            </insidePlayer>
+            <updt>Updated: 29 July 2025</updt>
+        </player>
         <tourns>
             <tour-box>
                 <info-m>
@@ -165,10 +183,10 @@
                         var content=document.getElementsByClassName("contnM2");
                     }
                     Array.prototype.forEach.call(content, function(element) {
-                        if (element.style.display==="none") {
-                            element.style.display="grid";
-                        } else {
+                        if (element.style.display==="grid") {
                             element.style.display="none";
+                        } else {
+                            element.style.display="grid";
                         };
                     });
                 }

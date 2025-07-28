@@ -51,6 +51,86 @@ txt:hover {
     cursor: default;
 }
 
+player {
+    border-radius:30px;
+    background:#f36983;
+    border:5px solid #f36983;
+    display:grid;
+    padding:2px;
+    justify-content:center;
+    width:fit-content;
+    margin:10px auto;
+}
+
+insidePlayer {
+    border-radius:23px;
+    padding:10px 20px;
+    background:white;
+    display:flex;
+    justify-content:center;
+    width:fit-content;
+}
+
+updt {
+    font-family:Casagrande-Reg;
+    font-size:1.4em;
+    color:white;
+    text-align: center;
+}
+
+info-p {
+    display:grid;
+    align-content:space-around;
+    margin-left:1em;
+}
+
+infoL {
+    font-family:Arista;
+    font-size:1.8em;
+    color:#f36983;  
+}
+
+nick {
+    padding:10px 30px;
+    border-radius:40px;
+    background:#f36983;
+    font-family:Arista-Bold;
+    color:white;
+    font-size:3em;
+}
+
+zones {
+    display:flex;
+    align-items:center;
+}
+
+zone {
+    font-family:Arista;
+    font-size:2em;
+    color:#f36983;  
+}
+
+zone::before {
+    content:"";
+    margin:auto 0.5em auto;
+    border:2px solid #f36983; 
+    border-radius:10px;
+}
+
+last {
+    margin-left:1em;
+    display:grid;
+    justify-content:end;
+    align-content:center;
+}
+
+lst-t {
+    font-family:Casagrande;
+    font-size:2em;
+    color:#f36983;
+    text-align:center;
+}
+
 tour-box {
     display:block;
     background:#f36983;
