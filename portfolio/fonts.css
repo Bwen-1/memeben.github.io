@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Casagrande-Bold;
+    src: url(fonts/CasagrandeAntifascista-Bold_0.ttf);
+}
+
+@font-face {
+    font-family: Casagrande;
+    src: url(fonts/CasagrandeAntifascista-Medium_0.ttf);
+}
+
+@font-face {
+    font-family: Casagrande-Reg;
+    src: url(fonts/CasagrandeAntifascista-Regular_0.ttf);
+}
+
+@font-face {
+    font-family: Arista-Bold;
+    src: url(fonts/AristaPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: Arista;
+    src: url(fonts/AristaPro-Regular.ttf);
+}
