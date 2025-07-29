@@ -227,12 +227,16 @@ roletags::before {
     background-color:rgb(212, 212, 212);
 }
 
-.contnD, .contnG, .contnS, .contnN, .contnM2 {
-    display:none;
+.contnD, .contnG, .contnS, .contnN, .contnM2, .contnD6 {
+    display:grid;
     margin-top:10px;
     background:white;
     border-radius:20px;
-    padding:10px 20px;
+    padding:0;
+    max-height:0;
+    opacity:0;
+    overflow:hidden;
+    transition:max-height 0.4s ease-out, opacity 0.5s, padding 0.3s ease-in;
 }
 
 exmp {
@@ -247,7 +251,7 @@ exmp {
     clip-path:xywh(0 0 100% 100% round 20px)
 }
 
-.contnD a, .contnS a, .contnG a, .contnM2 a, .contnN a {
+.contnD a, .contnS a, .contnG a, .contnM2 a, .contnN a, .contnD6 a {
     display:flex;
     justify-content:space-around;
     margin-top:10px;

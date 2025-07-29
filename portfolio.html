@@ -182,11 +182,16 @@
                     } else if(id==="SM2") {
                         var content=document.getElementsByClassName("contnM2");
                     }
+
                     Array.prototype.forEach.call(content, function(element) {
-                        if (element.style.display==="grid") {
-                            element.style.display="none";
+                        if (element.style.maxHeight) {
+                            element.style.maxHeight=null;
+                            element.style.padding=null;
+                            element.style.opacity=null;
                         } else {
-                            element.style.display="grid";
+                            element.style.maxHeight="100%";
+                            element.style.padding="10px 20px";
+                            element.style.opacity=1;
                         };
                     });
                 }
