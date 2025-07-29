@@ -4,6 +4,7 @@ body {
     background-image:url(grain.png);
     background-size: 0.5;
     background-repeat:repeat;
+    overflow-x:hidden;
 }
 
 h1 {
@@ -272,26 +273,4 @@ exmp {
 
 .ic {
     clip-path:xywh(0 0 100% 100% round 20px)
-}
-
-footer {
-    display:grid;
-    text-align:center;
-    align-items:center;
-    margin-top:20px;
-    padding:20px 50px 10px 50px;
-    background-color:#646464;
-    border-radius:50px 50px 0 0;
-    bottom:0;
-}
-
-[text] {
-    font-family:Casagrande;
-    font-size:14px;
-    color:#303030;
-    text-align:center;
-}
-
-[text]::after {
-    content: attr(text);
 }
