@@ -22,16 +22,39 @@
                         <zone>Time Zone: UTC+5</zone>
                     </zones>
                     <infoL>Main role: GFX/Designer</infoL>
-                    <infoL>Total Tournament Participations: 5</infoL>
+                    <infoL>Total Tournament Participations: 6</infoL>
                 </info-p>
                 <last>
                     <lst-t>Last Tornament</lst-t>
-                    <a href="https://osu.ppy.sh/community/forums/topics/2067944"><img class="ic" src="portfolio/sound.png" height="75px"></img></a>
+                    <a href="https://osu.ppy.sh/community/forums/topics/2067944"><img class="ic" src="portfolio/last.png" height="75px"></img></a>
                 </last>
             </insidePlayer>
-            <updt>Updated: 29 July 2025</updt>
+            <updt>Updated: 18 August 2025</updt>
         </player>
         <tourns>
+            <tour-box>
+                <info-m>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/1387560564586184925/963d240b052ca460a5add2343617caaf.png" width="100px"></img>
+                    <tit-b>
+                        <tour>
+                            <a href="https://osu.ppy.sh/community/forums/topics/2104987">Strongest Ascii Battlegrounds</a><time>16 August 2025 - present</time>
+                        </tour>
+                        <tags>
+                            <role>Role: Design</role>
+                            <roletags>
+                                <tag>Stream GFX</tag><tag>Map Banner GFX</tag>
+                            </roletags>
+                        </tags>
+                    </tit-b>
+                    <div class="colps" onclick="collaps('SAB')">More Info</div>
+                </info-m>
+                <div class="contnSAB">
+                    <exmp>
+                        Qualifier NM5 Banner:
+                        <img class="exmpl" src="https://i.ppy.sh/7b2dad3f6761e8e96e8e72da14d5ee7d83eecc17/68747470733a2f2f692e6962622e636f2f35576b5378594a5a2f7175616c6966696572732d6e6d352e706e67" height="150px">
+                    </exmp>
+                </div>
+            </tour-box>
             <tour-box>
                 <info-m>
                     <img class="ic" src="https://cdn.discordapp.com/icons/1200549931195310302/a92ec6ace0ca271b292b0e5e86db0434.png" width="100px"></img>
@@ -178,6 +201,8 @@
                         var content=document.getElementsByClassName("contnN");
                     } else if(id==="SM2") {
                         var content=document.getElementsByClassName("contnM2");
+                    } else if(id==="SAB") {
+                        var content=document.getElementsByClassName("contnSAB");
                     }
 
                     Array.prototype.forEach.call(content, function(element) {
