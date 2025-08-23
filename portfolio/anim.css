@@ -1,0 +1,21 @@
+player {
+    animation-duration: 1s;
+    animation-name:Appear;
+}
+
+tour-box {
+    animation-duration:2s;
+    animation-name:Appear;
+}
+
+@keyframes Appear {
+    from {
+        translate:0 3vh;
+        opacity:0;
+    }
+
+    to {
+        translate:0;
+        opacity:1;
+    }
+}
