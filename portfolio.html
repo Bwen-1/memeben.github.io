@@ -20,19 +20,64 @@
                 <info-p>
                     <zones>
                         <nick>MemeBen</nick>
-                        <zone>Time Zone: UTC+5</zone>
                     </zones>
                     <infoL>Main role: GFX/Designer</infoL>
-                    <infoL>Total Tournament Participations: 6</infoL>
+                    <infoL>Total Tournament Participations: 8</infoL>
                 </info-p>
                 <last>
                     <lst-t>Last Tornament</lst-t>
-                    <a href="https://osu.ppy.sh/community/forums/topics/2104987"><img class="ic" src="portfolio/last.png" height="75px"></img></a>
+                    <a href="https://osu.ppy.sh/community/forums/topics/2142402"><img class="ic" src="portfolio/exmpls/fifth-fixed.jpg" height="75px"></img></a>
                 </last>
             </insidePlayer>
-            <updt>Updated: 23 September 2025</updt>
+            <updt>Updated: 21 October 2025</updt>
         </player>
         <tourns>
+            <tour-box>
+                <info-m>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/1154385016776822905/efa36dd42c2c02a47d18cd5e38da9c38.png" width="100px"></img>
+                    <tit-b>
+                        <tour>
+                            <a href="https://osu.ppy.sh/community/forums/topics/2135606">GBC 2025 Autumn</a><time>19 October 2025 - present</time>
+                        </tour>
+                        <tags>
+                            <role>Role: Designer</role>
+                            <roletags>
+                                <tag>Banner GFX</tag>
+                            </roletags>
+                        </tags>
+                    </tit-b>
+                    <div class="colps" onclick="collaps('GBC25Au')">More Info</div>
+                </info-m>
+                <div class="contnGBC25Au">
+                    <exmp>
+                        Main Banner:
+                        <img class="exmpl" src="portfolio/exmpls/fifth-fixed.jpg" height="150px">
+                    </exmp>
+                </div>
+            </tour-box>
+            <tour-box>
+                <info-m>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/1295859371330502699/4c0f0af33422fcfa94f4d90eac8d8a99.png" width="100px"></img>
+                    <tit-b>
+                        <tour>
+                            <a href="https://osu.ppy.sh/community/forums/topics/2135606">Dreaxkom's 6 Digit Battle Royale</a><time>30 September 2025 - present</time>
+                        </tour>
+                        <tags>
+                            <role>Role: Graphics</role>
+                            <roletags>
+                                <tag>Banner GFX</tag><tag>Stream GFX</tag>
+                            </roletags>
+                        </tags>
+                    </tit-b>
+                    <div class="colps" onclick="collaps('6DBR2I')">More Info</div>
+                </info-m>
+                <div class="contnBR2I">
+                    <exmp>
+                        Main Banner:
+                        <img class="exmpl" src="portfolio/exmpls/1st.png" height="150px">
+                    </exmp>
+                </div>
+            </tour-box>
             <tour-box>
                 <info-m>
                     <img class="ic" src="https://cdn.discordapp.com/icons/1387560564586184925/963d240b052ca460a5add2343617caaf.png" width="100px"></img>
@@ -137,7 +182,7 @@
             </tour-box>
             <tour-box>
                 <info-m>
-                    <img class="ic" src="https://cdn.discordapp.com/icons/1154385016776822905/6759c2da2a14fdb58c99131336380750.png" width="100px"></img>
+                    <img class="ic" src="portfolio/arc-icons/gbc.png" width="100px"></img>
                     <tit-b>
                         <tour>
                             <a href="https://osu.ppy.sh/community/forums/topics/2045815">GBC 2025 Summer</a><time>24 February 2025 - 08 June 2025</time>
@@ -204,6 +249,10 @@
                         var content=document.getElementsByClassName("contnM2");
                     } else if(id==="SAB") {
                         var content=document.getElementsByClassName("contnSAB");
+                    } else if(id==="6DBR2I") {
+                        var content=document.getElementsByClassName("contnBR2I");
+                    } else if(id==="GBC25Au") {
+                        var content=document.getElementsByClassName("contnGBC25Au");
                     }
 
                     Array.prototype.forEach.call(content, function(element) {

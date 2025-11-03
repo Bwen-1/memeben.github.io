@@ -36,6 +36,11 @@ header {
     border-radius:0 0 60px 60px;
 }
 
+korone {
+    display: flex;
+    align-items: center;
+}
+
 
 headers {
     display:flex;
@@ -83,6 +88,7 @@ info-p {
     display:grid;
     align-content:space-around;
     margin-left:1em;
+    margin-right:5em;
 }
 
 infoL {
@@ -228,7 +234,7 @@ roletags::before {
     background-color:rgb(212, 212, 212);
 }
 
-.contnD, .contnG, .contnS, .contnN, .contnM2, .contnD6, .contnSAB {
+.contnD, .contnG, .contnS, .contnN, .contnM2, .contnD6, .contnSAB, .contnBR2I, .contnGBC25Au {
     display:grid;
     margin-top:10px;
     background:white;
