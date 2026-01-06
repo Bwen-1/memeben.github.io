@@ -22,16 +22,39 @@
                         <nick>MemeBen</nick>
                     </zones>
                     <infoL>Main role: GFX/Designer</infoL>
-                    <infoL>Total Tournament Participations: 8</infoL>
+                    <infoL>Total Tournament Participations: 9</infoL>
                 </info-p>
                 <last>
                     <lst-t>Last Tornament</lst-t>
-                    <a href="https://osu.ppy.sh/community/forums/topics/2142402"><img class="ic" src="portfolio/exmpls/fifth-fixed.jpg" height="75px"></img></a>
+                    <a href="https://osu.ppy.sh/community/forums/topics/2158377"><img class="ic" src="portfolio/exmpls/banner3.png" height="75px"></img></a>
                 </last>
             </insidePlayer>
-            <updt>Updated: 02 December 2025</updt>
+            <updt>Updated: 06 January 2026</updt>
         </player>
         <tourns>
+            <tour-box>
+                <info-m>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/1382050839799267500/fdd0450c9b1181b3eb192a1c9b322e60.png" width="100px"></img>
+                    <tit-b>
+                        <tour>
+                            <a href="https://osu.ppy.sh/community/forums/topics/2158377">The Third Impact</a><time>21 February 2026 - 10 May 2026</time>
+                        </tour>
+                        <tags>
+                            <role>Role: Designer</role>
+                            <roletags>
+                                <tag>Banner GFX</tag>
+                            </roletags>
+                        </tags>
+                    </tit-b>
+                    <div class="colps" onclick="collaps('TTI')">More Info</div>
+                </info-m>
+                <div class="contnTTI">
+                    <exmp>
+                        Main Banner:
+                        <img class="exmpl" src="portfolio/exmpls/banner3.png" height="150px">
+                    </exmp>
+                </div>
+            </tour-box>
             <tour-box>
                 <info-m>
                     <img class="ic" src="https://cdn.discordapp.com/icons/1154385016776822905/efa36dd42c2c02a47d18cd5e38da9c38.png" width="100px"></img>
@@ -253,6 +276,8 @@
                         var content=document.getElementsByClassName("contnBR2I");
                     } else if(id==="GBC25Au") {
                         var content=document.getElementsByClassName("contnGBC25Au");
+                    } else if(id==="TTI") {
+                        var content=document.getElementsByClassName("contnTTI");
                     }
 
                     Array.prototype.forEach.call(content, function(element) {
