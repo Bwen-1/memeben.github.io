@@ -258,7 +258,7 @@ exmp {
     clip-path:xywh(0 0 100% 100% round 20px)
 }
 
-.contnD a, .contnS a, .contnG a, .contnM2 a, .contnN a, .contnD6 a {
+.contnD a, .contnS a, .contnG a, .contnM2 a, .contnN a, .contnD6 a, .contnSAB a, .contnBR2I a {
     display:flex;
     justify-content:space-around;
     margin-top:10px;
@@ -273,7 +273,7 @@ exmp {
     padding:6px;
 }
 
-.contnD a:hover, .contnS a:hover, .contnG a:hover, .contnM2 a:hover, .contnN a:hover{
+.contnD a:hover, .contnS a:hover, .contnG a:hover, .contnM2 a:hover, .contnN a:hover, .contnSAB a:hover, .contnBR2I a:hover{
     background-color:#ee5d78;
 }
 
