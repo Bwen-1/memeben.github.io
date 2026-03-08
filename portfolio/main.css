@@ -234,7 +234,7 @@ roletags::before {
     background-color:rgb(212, 212, 212);
 }
 
-.contnD, .contnG, .contnS, .contnN, .contnM2, .contnD6, .contnSAB, .contnBR2I, .contnGBC25Au, .contnTTI, .contnNCC, .contnATF1 {
+.contnD, .contnG, .contnS, .contnN, .contnM2, .contnD6, .contnSAB, .contnBR2I, .contnGBC25Au, .contnTTI, .contnNCC {
     display:grid;
     margin-top:10px;
     background:white;
