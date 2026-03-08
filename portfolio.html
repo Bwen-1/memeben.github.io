@@ -22,16 +22,56 @@
                         <nick>MemeBen</nick>
                     </zones>
                     <infoL>Main role: GFX/Designer</infoL>
-                    <infoL>Total Tournament Participations: 9</infoL>
+                    <infoL>Total Tournament Participations: 11</infoL>
                 </info-p>
                 <last>
                     <lst-t>Last Tornament</lst-t>
-                    <a href="https://osu.ppy.sh/community/forums/topics/2158377"><img class="ic" src="portfolio/exmpls/banner3.png" height="100px"></img></a>
+                    <a href="https://taiko-frontier.vercel.app/en/atf1"><img class="ic" src="portfolio/exmpls/ATFmain4.png" height="100px"></img></a>
                 </last>
             </insidePlayer>
-            <updt>Updated: 06 January 2026</updt>
+            <updt>Updated: 08 March 2026</updt>
         </player>
         <tourns>
+            <tour-box>
+                <info-m>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/1459033965502402562/7e3ac7be8cafeac6f1b589ba25f91837.webp" width="100px"></img>
+                    <tit-b>
+                        <tour>
+                            <a href="https://taiko-frontier.vercel.app/en/atf1">Advanced Taiko Frontier #1</a><time>4 February 2026 - 18 May 2026</time>
+                        </tour>
+                        <tags>
+                            <role>Role: </role>
+                            <roletags>
+                                <tag>Skin GFX</tag>
+                                <tag>Stream GFX</tag>
+                            </roletags>
+                        </tags>
+                    </tit-b>
+                </info-m>
+            </tour-box>
+            <tour-box>
+                <info-m>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/1461597170720313502/34dc43364f1acf4e826cc357f7133b22.webp" width="100px"></img>
+                    <tit-b>
+                        <tour>
+                            <a href="https://osu.ppy.sh/community/forums/topics/2173714">Nightcore Cup</a><time>1 Feb 2026 - 25 April 2026</time>
+                        </tour>
+                        <tags>
+                            <role>Role: GFX</role>
+                            <roletags>
+                                <tag>Banner GFX</tag>
+                            </roletags>
+                        </tags>
+                    </tit-b>
+                    <div class="colps" onclick="collaps('NCC')">More Info</div>
+                </info-m>
+                <div class="contnNCC">
+                    <exmp>
+                        Main Banner:
+                        <img class="exmpl" src="portfolio/exmpls/Banner.png" height="150px">
+                    </exmp>
+                </div>
+            </tour-box>
             <tour-box>
                 <info-m>
                     <img class="ic" src="https://cdn.discordapp.com/icons/1382050839799267500/fdd0450c9b1181b3eb192a1c9b322e60.png" width="100px"></img>
@@ -285,6 +325,8 @@
                         var content=document.getElementsByClassName("contnGBC25Au");
                     } else if(id==="TTI") {
                         var content=document.getElementsByClassName("contnTTI");
+                    } else if(id==="NCC") {
+                        var content=document.getElementsByClassName("contnNCC");
                     }
 
                     Array.prototype.forEach.call(content, function(element) {
