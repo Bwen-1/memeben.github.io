@@ -29,7 +29,7 @@
                     <a href="https://taiko-frontier.vercel.app/en/atf1"><img class="ic" src="portfolio/exmpls/ATFmain4.png" height="100px"></img></a>
                 </last>
             </insidePlayer>
-            <updt>Updated: 08 March 2026</updt>
+            <updt>Updated: 23 March 2026</updt>
         </player>
         <tourns>
             <tour-box>
@@ -47,6 +47,14 @@
                             </roletags>
                         </tags>
                     </tit-b>
+                    <div class="colps" onclick="collaps('ATF1')">More Info</div>
+                </info-m>
+                <div class="contnATF1">
+                    <exmp>
+                        Taiko Background:
+                        <img class="exmpl" src="portfolio/exmpls/taiko.png" height="150px">
+                    </exmp>
+                </div>
                 </info-m>
             </tour-box>
             <tour-box>
@@ -60,6 +68,7 @@
                             <role>Role: GFX</role>
                             <roletags>
                                 <tag>Banner GFX</tag>
+                                <tag>Stream GFX</tag>
                             </roletags>
                         </tags>
                     </tit-b>
@@ -67,8 +76,8 @@
                 </info-m>
                 <div class="contnNCC">
                     <exmp>
-                        Main Banner:
-                        <img class="exmpl" src="portfolio/exmpls/Banner.png" height="150px">
+                        "Starting Soon" Screen:
+                        <img class="exmpl" src="portfolio/exmpls/NCC-str-sn.png" height="150px">
                     </exmp>
                 </div>
             </tour-box>
@@ -327,6 +336,8 @@
                         var content=document.getElementsByClassName("contnTTI");
                     } else if(id==="NCC") {
                         var content=document.getElementsByClassName("contnNCC");
+                    } else if(id==="ATF1") {
+                        var content=document.getElementsByClassName("contnATF1");
                     }
 
                     Array.prototype.forEach.call(content, function(element) {
