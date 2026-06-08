@@ -131,6 +131,11 @@ last {
     align-content:center;
 }
 
+last .ic {
+    display:flex;
+    margin:auto;
+}
+
 lst-t {
     font-family:Casagrande;
     font-size:2em;
