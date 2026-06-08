@@ -263,7 +263,7 @@ exmp {
     clip-path:xywh(0 0 100% 100% round 20px)
 }
 
-.contnD a, .contnS a, .contnG a, .contnM2 a, .contnN a, .contnD6 a, .contnSAB a, .contnBR2I a {
+.contnD a, .contnS a, .contnG a, .contnM2 a, .contnN a, .contnD6 a, .contnSAB a, .contnBR2I a, .contnNYCC26 a {
     display:flex;
     justify-content:space-around;
     margin-top:10px;
