@@ -234,7 +234,7 @@ roletags::before {
     background-color:rgb(212, 212, 212);
 }
 
-.contnD, .contnG, .contnS, .contnN, .contnM2, .contnD6, .contnSAB, .contnBR2I, .contnGBC25Au, .contnTTI, .contnNCC, .contnATF1 {
+.contnD, .contnG, .contnS, .contnN, .contnM2, .contnD6, .contnSAB, .contnBR2I, .contnGBC25Au, .contnTTI, .contnNCC, .contnATF1, .contnNYCC26 {
     display:grid;
     margin-top:10px;
     background:white;
@@ -258,7 +258,7 @@ exmp {
     clip-path:xywh(0 0 100% 100% round 20px)
 }
 
-.contnD a, .contnS a, .contnG a, .contnM2 a, .contnN a, .contnD6 a, .contnSAB a, .contnBR2I a {
+.contnD a, .contnS a, .contnG a, .contnM2 a, .contnN a, .contnD6 a, .contnSAB a, .contnBR2I a, .contnNYCC26 a {
     display:flex;
     justify-content:space-around;
     margin-top:10px;
@@ -273,7 +273,7 @@ exmp {
     padding:6px;
 }
 
-.contnD a:hover, .contnS a:hover, .contnG a:hover, .contnM2 a:hover, .contnN a:hover, .contnSAB a:hover, .contnBR2I a:hover{
+.contnD a:hover, .contnS a:hover, .contnG a:hover, .contnM2 a:hover, .contnN a:hover, .contnSAB a:hover, .contnBR2I a:hover, .contnNYCC26 a:hover{
     background-color:#ee5d78;
 }
 

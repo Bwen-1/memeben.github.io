@@ -22,16 +22,43 @@
                         <nick>MemeBen</nick>
                     </zones>
                     <infoL>Main role: GFX/Designer</infoL>
-                    <infoL>Total Tournament Participations: 11</infoL>
+                    <infoL>Total Tournament Participations: 12</infoL>
                 </info-p>
                 <last>
                     <lst-t>Last Tornament</lst-t>
-                    <a href="https://taiko-frontier.vercel.app/en/atf1"><img class="ic" src="portfolio/exmpls/ATFmain4.png" height="100px"></img></a>
+                    <a href="https://taiko-frontier.vercel.app/en/atf1"><img class="ic" src="portfolio/exmpls/final (compessed size).png" height="150px"></img></a>
                 </last>
             </insidePlayer>
-            <updt>Updated: 23 March 2026</updt>
+            <updt>Updated: 9 June 2026</updt>
         </player>
         <tourns>
+            <tour-box>
+                <info-m>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/581677151544147978/7e9dec96d9b015ca2be703c200d535bf.webp" width="100px"></img>
+                    <tit-b>
+                        <tour>
+                            <a href="https://osu.ppy.sh/community/forums/topics/2206326">New York County Cup 2026</a><time>15 May 2026 - 26 July 2026</time>
+                        </tour>
+                        <tags>
+                            <role>Role: GFX</role>
+                            <roletags>
+                                <tag>Main GFX</tag>
+                            </roletags>
+                        </tags>
+                    </tit-b>
+                    <div class="colps" onclick="collaps('NYCC26')">More Info</div>
+                </info-m>
+                <div class="contnNYCC26">
+                    <exmp>
+                        Teaser:
+                        <img class="exmpl" src="portfolio/exmpls/final (compessed size).png" height="150px">
+                    </exmp>
+                    <a href="https://drive.google.com/drive/folders/1YgIQInfv7Oxj8IZeXO-aFNdajTx5wsxh">
+                        All Content
+                    </a>
+                </div>
+                </info-m>
+            </tour-box>
             <tour-box>
                 <info-m>
                     <img class="ic" src="https://cdn.discordapp.com/icons/1459033965502402562/7e3ac7be8cafeac6f1b589ba25f91837.webp" width="100px"></img>
@@ -40,7 +67,7 @@
                             <a href="https://taiko-frontier.vercel.app/en/atf1">Advanced Taiko Frontier #1</a><time>4 February 2026 - 18 May 2026</time>
                         </tour>
                         <tags>
-                            <role>Role: </role>
+                            <role>Role: GFX</role>
                             <roletags>
                                 <tag>Skin GFX</tag>
                                 <tag>Stream GFX</tag>
@@ -59,7 +86,7 @@
             </tour-box>
             <tour-box>
                 <info-m>
-                    <img class="ic" src="https://cdn.discordapp.com/icons/1461597170720313502/34dc43364f1acf4e826cc357f7133b22.webp" width="100px"></img>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/1461597170720313502/35a84292ee8d5ad1bb99b9df7bf1d746.webp" width="100px"></img>
                     <tit-b>
                         <tour>
                             <a href="https://osu.ppy.sh/community/forums/topics/2173714">Nightcore Cup</a><time>1 Feb 2026 - 25 April 2026</time>
@@ -83,7 +110,7 @@
             </tour-box>
             <tour-box>
                 <info-m>
-                    <img class="ic" src="https://cdn.discordapp.com/icons/1382050839799267500/fdd0450c9b1181b3eb192a1c9b322e60.png" width="100px"></img>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/1382050839799267500/d3c53ca75a4118a62311a51142643059.webp" width="100px"></img>
                     <tit-b>
                         <tour>
                             <a href="https://osu.ppy.sh/community/forums/topics/2158377">The Third Impact</a><time>21 Feb 2026 - 10 May 2026</time>
@@ -338,6 +365,8 @@
                         var content=document.getElementsByClassName("contnNCC");
                     } else if(id==="ATF1") {
                         var content=document.getElementsByClassName("contnATF1");
+                    } else if(id==="NYCC26") {
+                        var content=document.getElementsByClassName("contnNYCC26");
                     }
 
                     Array.prototype.forEach.call(content, function(element) {
