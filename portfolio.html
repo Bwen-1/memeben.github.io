@@ -22,11 +22,11 @@
                         <nick>MemeBen</nick>
                     </zones>
                     <infoL>Main role: GFX/Designer</infoL>
-                    <infoL>Total Tournament Participations: 12</infoL>
+                    <infoL>Total Tournament Participations: 15</infoL>
                 </info-p>
                 <last>
                     <lst-t>Last Tornament</lst-t>
-                    <a href="https://taiko-frontier.vercel.app/en/atf1"><img class="ic" src="portfolio/exmpls/final (compessed size).png" height="100px"></img></a>
+                    <a href="https://osu.ppy.sh/community/forums/topics/2176063"><img class="ic" src="https://i.ppy.sh/528e3861bc07b6c49e0da38edd413a3224387337/68747470733a2f2f617269616f73752e6e656f6369746965732e6f72672f67676c62616e6e65722e706e67" height="100px"></img></a>
                 </last>
             </insidePlayer>
             <updt>Updated: 9 June 2026</updt>
@@ -34,7 +34,79 @@
         <tourns>
             <tour-box>
                 <info-m>
-                    <img class="ic" src="https://cdn.discordapp.com/icons/581677151544147978/7e9dec96d9b015ca2be703c200d535bf.webp" width="100px"></img>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/1461287490811068418/58b5c9c4e8071ea4b2a3020217592a2e.webp" width="100px"></img>
+                    <tit-b>
+                        <tour>
+                            <a href="https://osu.ppy.sh/community/forums/topics/2176063">Gambling Gulag League 2</a><time>1 May 2026 - 26 July 2026</time>
+                        </tour>
+                        <tags>
+                            <role>Role: Graphics</role>
+                            <roletags>
+                                <tag>Stream GFX</tag>
+                            </roletags>
+                        </tags>
+                    </tit-b>
+                    <div class="colps" onclick="collaps('GGL26')">More Info</div>
+                </info-m>
+                <div class="contnGGL26">
+                    <exmp>
+                        Starting Soon Screen:
+                        <img class="exmpl" src="portfolio/exmpls/bg-main.png" height="150px">
+                    </exmp>
+                </div>
+                </info-m>
+            </tour-box>
+            <tour-box>
+                <info-m>
+                    <img class="ic" src="portfolio/arc-icons/logo.png" width="100px"></img>
+                    <tit-b>
+                        <tour>
+                            <a href="https://docs.qq.com/sheet/DTXVtb0RvY3dUR0xV">GBC 2026 Summer</a><time>21 June 2026 - 26 July 2026</time>
+                        </tour>
+                        <tags>
+                            <role>Role: GFX</role>
+                            <roletags>
+                                <tag>Main GFX</tag>
+                            </roletags>
+                        </tags>
+                    </tit-b>
+                    <div class="colps" onclick="collaps('GBC26IRL')">More Info</div>
+                </info-m>
+                <div class="contnGBC26IRL">
+                    <exmp>
+                        Main Banner:
+                        <img class="exmpl" src="portfolio/exmpls/banner-01-01.png" height="150px">
+                    </exmp>
+                </div>
+                </info-m>
+            </tour-box>
+            <tour-box>
+                <info-m>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/1453324061806559316/9295e0936d0cec1385b63c1f92e077f2.webp?size=1024" width="100px"></img>
+                    <tit-b>
+                        <tour>
+                            <a href="https://osu.ppy.sh/community/forums/topics/2192013">Fin's All Mode Event</a><time>28 March 2026 - 12 July 2026</time>
+                        </tour>
+                        <tags>
+                            <role>Role: GFX</role>
+                            <roletags>
+                                <tag>Showcase GFX</tag>
+                            </roletags>
+                        </tags>
+                    </tit-b>
+                    <div class="colps" onclick="collaps('FAME')">More Info</div>
+                </info-m>
+                <div class="contnFAME">
+                    <exmp>
+                        FAME GF 7KHB Showcase:
+                        <iframe width="448" height="252" src="https://www.youtube.com/embed/W5wZI0ZWuwM?si=7X6jZTaTAnZKYR29" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </exmp>
+                </div>
+                </info-m>
+            </tour-box>
+            <tour-box>
+                <info-m>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/581677151544147978/b28ea19cc5e88e9cd78341adeff87c42.webp" width="100px"></img>
                     <tit-b>
                         <tour>
                             <a href="https://osu.ppy.sh/community/forums/topics/2206326">New York County Cup 2026</a><time>15 May 2026 - 26 July 2026</time>
@@ -235,7 +307,7 @@
             </tour-box>
             <tour-box>
                 <info-m>
-                    <img class="ic" src="https://cdn.discordapp.com/icons/581677151544147978/7e9dec96d9b015ca2be703c200d535bf.png" width="100px"></img>
+                    <img class="ic" src="https://cdn.discordapp.com/icons/581677151544147978/b28ea19cc5e88e9cd78341adeff87c42.webp" width="100px"></img>
                     <tit-b>
                         <tour>
                             <a href="https://osu.ppy.sh/community/forums/topics/2090778">New York State Showdown 2025</a><time>10 June 2025 - 25 Aug 2025</time>
@@ -367,6 +439,12 @@
                         var content=document.getElementsByClassName("contnATF1");
                     } else if(id==="NYCC26") {
                         var content=document.getElementsByClassName("contnNYCC26");
+                    } else if(id==="FAME") {
+                        var content=document.getElementsByClassName("contnFAME");
+                    } else if(id==="GBC26IRL") {
+                        var content=document.getElementsByClassName("contnGBC26IRL");
+                    } else if(id==="GGL26") {
+                        var content=document.getElementsByClassName("contnGGL26");
                     }
 
                     Array.prototype.forEach.call(content, function(element) {
